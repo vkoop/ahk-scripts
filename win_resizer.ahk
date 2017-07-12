@@ -27,7 +27,7 @@ SendToCenter()
 	SysGet, Mon, MonitorWorkArea
 	WinGetPos,X,Y,W,H,A
 	NewW :=  (MonRight - MonLeft) / 2
-	NewX := (MonRight - MonLeft) / 3
+	NewX := (MonRight - MonLeft) / 4
 	WinMove,A,,%NewX%,%MonTop%,%NewW%,%MonBottom%
 }
 
